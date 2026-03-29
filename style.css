@@ -1,0 +1,110 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #f59607;
+      color: white;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+    }
+
+    .scoreboard {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .team {
+      background: #111;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    }
+
+    .team h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    .score {
+      font-size: 5rem;
+      margin: 20px 0;
+      color: #06ff27;
+    }
+
+    .controls button,
+    .clock-controls button {
+      margin: 5px;
+      padding: 10px 16px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button {
+      background: #12c2da;
+      color: white;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+
+    .center-panel {
+      margin: 30px 0;
+      background: #1b1b1b;
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    .clock {
+      font-size: 4rem;
+      margin: 15px 0;
+      color: #ffdb0f;
+    }
+
+    .game-info {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      font-size: 1.2rem;
+      margin-top: 15px;
+      flex-wrap: wrap;
+    }
+
+    .stat-box {
+      background: #333;
+      padding: 10px 18px;
+      border-radius: 8px;
+    }
+
+    .setup {
+      margin-bottom: 25px;
+    }
+
+    .setup input {
+      padding: 10px;
+      margin: 5px;
+      border-radius: 6px;
+      border: none;
+      font-size: 1rem;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 0.95rem;
+      color: #ccc;
+    }
