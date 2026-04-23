@@ -1,5 +1,5 @@
 CREATE DATABASE IF NOT EXISTS smart_basketball_scoreboard_tracker
-USE smart_scoreboard_basketball_tracker
+USE smart_basketball_scoreboard_tracker
 
 CREATE TABLE "games" (
 	"game_id"	INTEGER,
